@@ -2,11 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
   "packages": [
     "perl@5.38",
-    "perl538Packages.Appcpm@latest"
+    "perl538Packages.Appcpm@latest",
+    "direnv@latest"
   ],
   "env": {
     "PERL5LIB": "$PWD/local/lib/perl5",
-    "PATH": "$PWD/local/bin:$PATH"
+    "PATH":     "$PWD/local/bin:$PATH"
   },
   "shell": {
     "init_hook": [
