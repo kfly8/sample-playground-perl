@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
+  "packages": [
+    "perl@5.38",
+    "perl538Packages.Appcpm@latest"
+  ],
+  "env": {
+    "PERL5LIB": "$PWD/local/lib/perl5",
+    "PATH": "$PWD/local/bin:$PATH"
+  },
+  "shell": {
+    "init_hook": [
+      "echo 'HELLO' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}

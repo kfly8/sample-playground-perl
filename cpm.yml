@@ -1,0 +1,7 @@
+prereqs:
+  runtime:
+    requires:
+      Type::Tiny:
+  test:
+    requires:
+      Test2::V0:
